@@ -11,7 +11,7 @@ const plans = [
 		name: 'Basic',
 		price: 'INR 9999',
 		features: [
-			'Full responsiveness on all scrins',
+			'Fully responsive on all screens',
 			'Design + Development',
 			'Private communication channel',
 			'1-3 days turnaround time',
@@ -28,11 +28,11 @@ const plans = [
 		price: 'US $1299',
 		features: [
 			'Fully responsive on all screens',
-			'React / Next.js / Tailwind CSS code',
 			'Design + Development',
-			'24-hour support response time',
+			'React / Next.js / Tailwind CSS code',
 			'Private communication channel',
 			'3-5 days turnaround time',
+			'24-hour support response time',
 		],
 		style:
 			' rounded-3xl  py-10 bg-clip-text text-transparent bg-gradient-to-b from-neutral-300 to-neutral-50',
@@ -47,11 +47,11 @@ const plans = [
 		price: "Let's Talk!",
 		features: [
 			'Fully responsive on all screens',
-			'React / Next.js / Tailwind CSS code',
 			'Design + Development',
+			'React / Next.js / Tailwind CSS code',
+			'Private communication channel',
 			'Unlimited Revisions',
 			'24-hour support response time',
-			'Private communication channel',
 			'Priority Development Queue',
 			'Dedicated Project Manager',
 		],
@@ -77,29 +77,31 @@ const Pricing = () => {
 					Choose the Plan <br /> that suits You best
 				</div>
 
-				<div className='mx-auto grid md:grid-cols-3 gap-6 px-6 md:w-4/5 2xl:w-3/4 cursor-pointer pb-20 items-start'>
+				<div className='mx-auto grid md:grid-cols-3 gap-2 px-2 md:w-4/5 2xl:w-3/4 cursor-pointer pb-20 items-start'>
 					{plans.map((plan, index) => (
 						<div
 							key={plan.name}
-							className='h-full flex flex-col justify-between border rounded-xl px-6'
+							className='h-full flex flex-col justify-between border rounded-xl px-4'
 						>
 							<div className={plan.style}>
-								<div className='text-3xl flex items-center font-medium'>
+								<div className='text-3xl flex items-center justify-center font-medium '>
 									{plan.name}
 								</div>
-								<div className='text-2xl pt-4'>{plan.price}</div>
+
+								<div className='text-2xl pt-4 text-center'>{plan.price}</div>
+
 								<div className='py-4'>{plan.description}</div>
 
 								<ul>
 									{plan.features.map((feature) => (
 										<li
 											key={feature}
-											className='text-lg py-2 felx space-x-2 items-center'
+											className='text-2sm py-2 flex space-x-2 items-center'
 										>
 											{plan.feature === 'Contact Us' ? (
-												<PiCheckCircleFill className='text-blue-400 mr-2 text-xl' />
+												<PiCheckCircleFill className='text-blue-400 mr-1 text-xl min-w-4 w-4' />
 											) : (
-												<PiCheckCircleFill className='text-green-600 mr-2 text-xl' />
+												<PiCheckCircleFill className='text-green-600 mr-1 text-xl min-w-4 w-4' />
 											)}
 											{/* <p>{feature}</p> */}
 											{feature}
