@@ -4,6 +4,7 @@ Website for a marketing agency which specializes in branding, web designing, and
 
 ## Tech Stack
 - NextJS
+- TypeScript
 - Tailwind CSS
 - Aceternity UI
 
