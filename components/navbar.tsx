@@ -53,6 +53,13 @@ const Navbar = ({
 				</div>
 
 				<div className='cursor-pointer hidden md:flex space-x-10 items-center text-slate-300 text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to bg-neutral-400 bg-opacity-50'>
+					{/* <Link
+						href='/'
+						onClick={scrollToWebsiteDesign}
+						className='hover:text-gray-50'
+                  >
+						Website Design
+					</Link> */}
 					<div onClick={scrollToWebsiteDesign} className='hover:text-gray-50'>
 						Website Design
 					</div>
