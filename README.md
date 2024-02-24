@@ -2,7 +2,7 @@
 
 Website for a marketing agency which specializes in branding, web designing, and digital marketing.
 
-[Chech it out here](https://dig-it-eta.vercel.app/)
+[Check it out here](https://dig-it-eta.vercel.app/)
 
 ## Tech Stack
 - NextJS
