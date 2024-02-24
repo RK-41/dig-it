@@ -49,7 +49,7 @@ const ShopifyStores = () => {
 									className='rounded-lg mx-auto'
 								/>
 
-								<p className='text-neutral-800 font-bold text-lg mt-4 text-center'>
+								<p className='text-neutral-800 font-bold text-2sm md:text-lg mt-4 text-center'>
 									&quot;{store.quote}&quot;
 								</p>
 

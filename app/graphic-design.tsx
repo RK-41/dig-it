@@ -18,7 +18,7 @@ const GraphicDesign = () => {
 					posts, we&apos;ve got you covered.
 				</p>
 
-				<div className='items-center md:flex justify-center md:mx-4 md:space-x-10'>
+				<div className='items-center lg:flex justify-center md:mx-4 md:space-x-10'>
 					<motion.div
 						initial={{ y: 100, opacity: 0 }}
 						animate={{ y: 0, opacity: 1 }}

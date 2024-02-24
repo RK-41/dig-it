@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import { AlignJustify, X } from 'lucide-react';
 import Link from 'next/link';
 import DropDownMenu from './drop-down-menu';
+import Image from 'next/image';
 
 interface NavbarProps {
 	scrollToWebsiteDesign: () => void;
@@ -33,22 +34,29 @@ const Navbar = ({
 		<div>
 			<div className='p-6 md:p-10 flex items-center justify-between z-50'>
 				<div>
-					{/* <Link className='cursor-pointer' href='/'>
+					{/* <Link className='cursor-pointer w-40' href='/'>
 						<Image
 							priority
-							src='/logo/dig-it.png'
+							src='/logo/logo2.png'
 							alt='Logo'
 							width={100}
 							height={100}
-							className='w-12 h-max md:w-12 md:h-max rounded-sm'
+							className='w-12 h-max md:w-20 md:h-max rounded-sm bg-white'
 						/>
 					</Link> */}
 
 					<Link
 						href='/'
-						className='inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 mr-3 min-w-28'
+						className='inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 mr-3 min-w-28 w-28'
 					>
-						Dig-It
+						<Image
+							priority
+							src='/logo/logo3.png'
+							alt='Logo'
+							width={100}
+							height={100}
+							className='w-24 h-10 md:w-auto rounded-sm bg'
+						/>
 					</Link>
 				</div>
 
