@@ -12,6 +12,7 @@ import Brands from './brands';
 import Services from './services';
 import FAQS from './faqs';
 import { useRef } from 'react';
+import { Button } from '@/components/ui/moving-border';
 
 export default function Home() {
 	const websiteDesignRef = useRef<HTMLDivElement>(null);
@@ -55,13 +56,8 @@ export default function Home() {
 					Custom tailored solutions for your business.
 				</p>
 
-				<Link
-					href={'/book'}
-					className='cursor-pointer
-               flex items-center
-               justify-center border rounded-full w-48 p-2 mx-auto my-6 text-white'
-				>
-					Book a Meeting
+				<Link href={'/book'} className='flex justify-center my-6'>
+					<Button className='text-lg bg-black '>Book a Meeting</Button>
 				</Link>
 
 				<div className='w-full pt-20'>
