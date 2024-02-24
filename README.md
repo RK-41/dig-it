@@ -1,12 +1,15 @@
-# dig-it (under development)
+# dig-it
 
 Website for a marketing agency which specializes in branding, web designing, and digital marketing.
+
+[Chech it out here](https://dig-it-eta.vercel.app/)
 
 ## Tech Stack
 - NextJS
 - TypeScript
 - Tailwind CSS
 - Aceternity UI
+- Stripe
 
 -----------------
 
