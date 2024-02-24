@@ -8,6 +8,7 @@ Website for a marketing agency which specializes in branding, web designing, and
 - Customers can contact the agency through Contact Form.
 - Customers can book a meeting with the agency through Calendly.
 - Customers can buy a subscription plan through Stripe payment gateway.
+- Interactive FAQs section built using React Accordion.
   
 ## Tech Stack
 - NextJS
