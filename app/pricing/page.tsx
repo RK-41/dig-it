@@ -9,7 +9,7 @@ const plans = [
 	{
 		index: 0,
 		name: 'Basic',
-		price: 'INR 9999',
+		price: 'INR 10K',
 		features: [
 			'Fully responsive on all screens',
 			'Design + Development',
@@ -25,7 +25,7 @@ const plans = [
 	{
 		index: 1,
 		name: 'Premium',
-		price: 'US $1299',
+		price: 'INR 100K',
 		features: [
 			'Fully responsive on all screens',
 			'Design + Development',
