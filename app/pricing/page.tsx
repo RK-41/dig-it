@@ -25,7 +25,7 @@ const plans = [
 	{
 		index: 1,
 		name: 'Premium',
-		price: 'INR 100K',
+		price: 'INR 50K',
 		features: [
 			'Fully responsive on all screens',
 			'Design + Development',
@@ -113,7 +113,7 @@ const Pricing = () => {
 							<div className={plan.button}>
 								{index === 0 && (
 									<Link
-										href='https://buy.stripe.com/'
+										href='https://buy.stripe.com/test_4gw3cyaWseV82ti8ww'
 										className='rounded-3xl my-4 py-2 text-white w-full mx-auto items-center flex justify-center bg-gradient-to-r from-emerald-500 to-blue-300'
 									>
 										Buy Now
@@ -121,7 +121,7 @@ const Pricing = () => {
 								)}
 								{index === 1 && (
 									<Link
-										href='https://buy.stripe.com/'
+										href='https://buy.stripe.com/test_14keVg1lS4gugk8cMN'
 										className='rounded-3xl my-4 py-2 text-white w-full mx-auto items-center flex justify-center bg-gradient-to-r from-emerald-500 to-blue-300'
 									>
 										Buy Now
