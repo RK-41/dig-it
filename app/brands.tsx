@@ -33,7 +33,7 @@ const brandLogos = [
 function Brands() {
 	return (
 		<div className='mx-auto relative z-10 w-full py-10 md:py-20'>
-			<div className='text-4xl pb-5 md:text-7xl px-6 text-center bg-clip-text text-transparent bg-gradient-to-b from-purple-500 to bg-sky-200 bg-opacity-50'>
+			<div className='text-4xl pb-5 md:text-7xl px-6 text-center bg-clip-text text-transparent bg-gradient-to-b from-blue-500 to bg-sky-200 bg-opacity-50'>
 				Brands that chose Us
 			</div>
 

@@ -24,7 +24,7 @@ const stores = [
 ];
 const ShopifyStores = () => {
 	return (
-		<section className='py-10 md:py-20 w-full bg-slate-900'>
+		<section className='py-10 md:py-20 w-full '>
 			<div className='p-4 mx-auto relative z-10 w-full'>
 				<div className='text-4xl pb-5 md:text-7xl px-6 text-center bg-clip-text text-transparent bg-gradient-to-b from-blue-500 to bg-sky-200 bg-opacity-50'>
 					Shopify Stores
