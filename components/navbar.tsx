@@ -55,7 +55,7 @@ const Navbar = ({
 							alt='Logo'
 							width={100}
 							height={100}
-							className='w-24 h-10 md:w-auto rounded-sm bg'
+							className='w-20 h-12 md:w-28 md:h-14 rounded-sm'
 						/>
 					</Link>
 				</div>
