@@ -4,6 +4,11 @@ Website for a marketing agency which specializes in branding, web designing, and
 
 [Check it out here](https://dig-it-eta.vercel.app/)
 
+## Notable Features
+- Customers can contact the agency through Contact Form.
+- Customers can book a meeting with the agency through Calendly.
+- Customers can buy a subscription plan through Stripe payment gateway.
+  
 ## Tech Stack
 - NextJS
 - TypeScript
