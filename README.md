@@ -1,12 +1,21 @@
-# dig-it (under development)
+# dig-it
 
 Website for a marketing agency which specializes in branding, web designing, and digital marketing.
 
+[Check it out here](https://dig-it-eta.vercel.app/)
+
+## Notable Features
+- Customers can contact the agency through Contact Form.
+- Customers can book a meeting with the agency through Calendly.
+- Customers can buy a subscription plan through Stripe payment gateway.
+- Interactive FAQs section built using React Accordion.
+  
 ## Tech Stack
 - NextJS
 - TypeScript
 - Tailwind CSS
 - Aceternity UI
+- Stripe
 
 -----------------
 
@@ -14,7 +23,19 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, install the dependencies:
+
+```bash
+npm install
+# or
+yarn isntall
+# or
+pnpm install
+# or
+bun install
+```
+
+Second, run the development server:
 
 ```bash
 npm run dev
@@ -28,7 +49,7 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can try your hands on the project and see what becomes of it.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
