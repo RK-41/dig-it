@@ -34,7 +34,7 @@ const FormSchema = z.object({
 	email: z.string().email(),
 	company_name: z.string(),
 	help: z.enum([
-		'Evaluate Dig-It for my company',
+		'Evaluate Dig-IT for my company',
 		'Learn More',
 		'Get a Quote',
 		'Other',
@@ -66,7 +66,7 @@ type FormValues = {
 		| '501-1000'
 		| '1000+';
 	help:
-		| 'Evaluate Dig-It for my company'
+		| 'Evaluate Dig-IT for my company'
 		| 'Learn More'
 		| 'Get a Quote'
 		| 'Other';
@@ -294,8 +294,8 @@ export default function ContactForm() {
 
 											<SelectContent>
 												<div className='flex gap-4'>
-													<SelectItem value='Evaluate Dig-It for my company'>
-														Evaluate Dig-It for my company
+													<SelectItem value='Evaluate Dig-IT for my company'>
+														Evaluate Dig-IT for my company
 													</SelectItem>
 													<SelectItem value='Get a Quote'>
 														Get a Quote
@@ -365,7 +365,7 @@ export default function ContactForm() {
 								/> */}
 
 								<div className='text-xs font-light md:w-3/4 mb-1 bg-clip-text text-neutral-200 bg-gradient-to-b from-neutral-50 to-neutral-400'>
-									I agree to &quot;Dig-It&quot; sending marketing
+									I agree to &quot;Dig-IT&quot; sending marketing
 									communications.
 								</div>
 							</div>

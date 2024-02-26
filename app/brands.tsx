@@ -64,7 +64,7 @@ function Brands() {
 				)}
 			>
 				&quot;We got rid of nearly a dozen different tools because of what
-				Dig-It did for us.&quot;
+				Dig-IT did for us.&quot;
 			</div>
 
 			<div className='items-center flex justify-center flex-col text-white'>

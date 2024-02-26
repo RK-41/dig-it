@@ -19,9 +19,9 @@ const FAQS = () => {
 
 				<Accordion type='single' collapsible>
 					<AccordionItem value='item1'>
-						<AccordionTrigger>What is Dig-It?</AccordionTrigger>
+						<AccordionTrigger>What is Dig-IT?</AccordionTrigger>
 						<AccordionContent>
-							Dig-It is full fledged digital marketing agency that specializes
+							Dig-IT is full fledged digital marketing agency that specializes
 							in branding, web design, and digital merketing.
 						</AccordionContent>
 					</AccordionItem>

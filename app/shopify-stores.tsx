@@ -6,19 +6,19 @@ const stores = [
 	{
 		image: '/images/shop-1.png',
 		quote:
-			'Dig-It gave us an extra push we needed, and it has be an amazing ride so far.',
+			'Dig-IT gave us an extra push we needed, and it has be an amazing ride so far.',
 		name: 'Jack Reacher',
 	},
 	{
 		image: '/images/shop-2.jpeg',
 		quote:
-			'The team at Dig-It is amazing. They helped us create a stunning store that we are proud of.',
+			'The team at Dig-IT is amazing. They helped us create a stunning store that we are proud of.',
 		name: 'Saul Goodman',
 	},
 	{
 		image: '/images/shop-3.jpg',
 		quote:
-			'We had no idea how to get started, and Dig-It helped us to create something amazing.',
+			'We had no idea how to get started, and Dig-IT helped us to create something amazing.',
 		name: 'Johnny Blaze',
 	},
 ];
