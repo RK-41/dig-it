@@ -2,7 +2,6 @@
 
 import { motion } from 'framer-motion';
 import { ThreeDCardSnippet } from './snippets/3d-card-snippet';
-import { TabsSnippet } from './snippets/tabs-snippet';
 import { DirectionAwareHoverSnippet } from './snippets/direction-aware-hover-snippet';
 
 const GraphicDesign = () => {

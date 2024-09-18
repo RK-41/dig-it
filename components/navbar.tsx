@@ -1,11 +1,10 @@
 'use client';
 
 import { useState } from 'react';
-import { motion } from 'framer-motion';
 import { AlignJustify, X } from 'lucide-react';
 import Link from 'next/link';
-import DropDownMenu from './drop-down-menu';
 import Image from 'next/image';
+import DropDownMenu from './drop-down-menu';
 
 interface NavbarProps {
 	scrollToWebsiteDesign: () => void;
